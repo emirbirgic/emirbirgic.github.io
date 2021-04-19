@@ -13,7 +13,7 @@ $(document).ready(function() {
 });
 
 function printMain(name) {
-  var printContents = document.getElementById(name).innerHTML;
+  var printContents = document.getElementById(name).innerHTML;  
   var originalContents = document.body.innerHTML;
   
   document.body.innerHTML = printContents;
